@@ -1,0 +1,34 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{%static 'nav.css'%}">
+    <link rel="stylesheet" href="{%static 'about.css'%}">
+</head>
+<body>
+    <nav>
+      
+          <div class="navigation">
+            <a href="/">hostel  management  system</a>
+            <ul>
+                <a href="{%url 'contact'%}">contact</a>
+                <a href="{%url 'about'%}">about</a>                
+            </ul>
+        </div>
+    </nav>
+    <div class="about">
+        <h2>About:</h2><br/>
+        <p>Overview of the Project:
+            The project is designed so it as to be used by Admin to add students in the hostel. It is an online system through which Admin can add students to hostel, view available hostels, add the new hostel, view students, view number of students, search student, see the room attotments and add warden .
+            The main objective of the Project on Hostel Management System is to manage the details of Hostel, Students, Student visitors, Student Registration. It manages all the information about Hostel, Student Registration, Warden, Visitors. The project is totally built at administrative end and thus only the administrator is guaranteed the access. 
+            The project aims at Business process automation, i.e., we have tried to computerize various processes of Hostel Management System.
+            </p>
+    </div>
+    <div class="image">
+    </div>
+</body>
+</html>
